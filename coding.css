@@ -1,0 +1,97 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: 1500px;
+}
+
+.container{
+  width: 880px;
+  height: 620px;
+  padding: 25px;
+  margin-left: 280px;
+  margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px 15px 15px 15px;
+}
+
+header>img{
+  width: 22%;
+  margin-left: 40%;
+  margin-top: 6%;
+}
+
+header>h1{
+  color: lime;
+  font-size: 25px;
+  font-family: 'Mulish', sans-serif;
+  margin-left: 30%;
+  line-height: 3px;
+}
+
+nav{
+  margin: auto;
+  background-color: lime;
+  width:800px ;
+  height: 35px;
+}
+
+nav>button{
+  display: inline-block;
+  background-color: GhostWhite;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+button.speciale{
+ margin: auto;
+ margin-left: 37%;
+ margin-top: 1%;
+}
+div.monopattino{
+  margin-left: 35px;
+}
+
+div>h2{
+  display: inline-block;
+  color: white;
+  font-size: 19px;
+  font-family: 'Mulish', sans-serif;
+  line-height: 1;
+}
+
+.right:before {
+  content: "\21A6";
+  color: lightgrey;
+  margin-right: 3px;
+}
+
+div>h4{
+  color: lightgrey;
+  font-size: 13px;
+  margin-top: 0;
+  font-family: 'Mulish', sans-serif;
+  line-height: 1px;
+}
+
+section.metà{
+  width: 270px;
+  height: 23px;
+  background-color: SandyBrown;
+  border-radius: 5px 5px 5px 5px;
+  position: relative; bottom: 10px;
+}
+
+section.carico{
+  width: 460px;
+  height: 23px;
+  background-color: LimeGreen;
+  border-radius: 5px 5px 5px 5px;
+  position: relative; bottom: 10px;
+}
+
+section.scarico{
+  width: 110px;
+  height: 23px;
+  background-color: FireBrick;
+  border-radius: 5px 5px 5px 5px;
+  position: relative; bottom: 10px;
+}
